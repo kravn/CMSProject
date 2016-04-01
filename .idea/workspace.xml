@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="250d8c0c-e307-47ad-a061-0a803399266c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Application/HomeController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Application/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/application.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/application.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/partials/menu/application.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/menu/application.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/less/application.less" afterPath="$PROJECT_DIR$/resources/assets/less/application.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/en/application.php" afterPath="$PROJECT_DIR$/resources/lang/en/application.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/tr/application.php" afterPath="$PROJECT_DIR$/resources/lang/tr/application.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/partials/common/languages.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/common/languages.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/less/skin.less" afterPath="$PROJECT_DIR$/resources/assets/less/skin.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/partials/application/top.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/application/top.blade.php" />
-    </list>
+    <list default="true" id="250d8c0c-e307-47ad-a061-0a803399266c" name="Default" comment="" />
     <ignored path="CMSProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
