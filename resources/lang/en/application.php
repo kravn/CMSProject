@@ -9,6 +9,8 @@ return [
     */
 
     "home"          => "Home",
-    "read_more"     => "Read More"
+    "read_more"     => "Read More",
+    "login"         => "Sign In",
+    "logout"        => "Sign Out"
 
 ];

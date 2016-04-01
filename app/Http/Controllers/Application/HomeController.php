@@ -16,4 +16,8 @@ class HomeController extends ApplicationController
         $articles = $this->language->articles()->published()->orderBy('published_at', 'desc')->paginate(5);
         return view('application.home.index', compact('articles'));
     }
+
+    public function login(){
+        return "This is the login";
+    }
 }

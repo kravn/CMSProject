@@ -24,12 +24,14 @@
     <script src="{{ url( 'js/application-custom.js' ) }}" type="text/javascript"></script>
 </head>
 <body>
-@include('partials.application.top')
-<div class="container">
-    <main class="content">
-        @yield('content')
-    </main>
-</div>
-@include('partials.application.footer')
+    @include('partials.application.top')
+    <div class="section section--main">
+        <div class="container">
+            <main class="content">
+                @yield('content')
+            </main>
+        </div>
+    </div>
+    @include('partials.application.footer')
 </body>
 </html>

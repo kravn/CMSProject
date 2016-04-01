@@ -1,3 +1,6 @@
+<ul class="nav navbar-nav">
+    <li><a href="#">Games</a></li>
+</ul>
 @if(count(Session::get('current_lang')->pages))
     <ul class="nav navbar-nav">
         @foreach(Session::get('current_lang')->pages->toHierarchy() as $node)
@@ -6,6 +9,9 @@
     </ul>
 @endif
 <ul class="nav navbar-nav navbar-right">
+    <li><a href="{{ route('login') }}"><i class="fa fa-sign-in fa-lg"></i> {{ trans('application.login') }}</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right" style="display: none;">
     @if(!empty(Config::get('settings')->facebook))
         <li><a target="_blank" href="{{ Config::get('settings')->facebook }}"><i class="fa fa-facebook"></i></a></li>
     @endif
