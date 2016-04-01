@@ -1,0 +1,31 @@
+@colorWhite: #fff;
+@colorRed: #d52427;
+@colorBlack: #000;
+
+.navbar {
+  border-radius: 0;
+}
+.navbar-default {
+  background-color: @colorBlack;
+  border: none;
+  .navbar-brand {
+    color: @colorWhite;
+    img {
+      position: relative;
+      top: -5px;
+    }
+  }
+  .navbar-brand:hover { color: @colorWhite; }
+  .navbar-nav {
+    li {
+      a {
+        color: @colorWhite;
+      }
+    }
+    li:hover {
+      a {
+        color: @colorRed;
+      }
+    }
+  }
+}

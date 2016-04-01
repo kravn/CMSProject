@@ -8,7 +8,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{  route('root') }}">{{ Session::get('current_lang')->site_title }}</a>
+                <a class="navbar-brand" href="{{  route('root') }}">
+                    {{-- Session::get('current_lang')->site_title --}}
+                    <img src="{{ url('/') . '/' . Config::get('settings')->logo }}" alt=""/>
+
+                </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 @include('partials.menu.application')
