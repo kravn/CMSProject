@@ -6,6 +6,7 @@ use App\Article;
 use App\Base\Controllers\ApplicationController;
 use App\Setting;
 use SimpleXMLElement;
+use Illuminate\Support\Facades\Config;
 
 class HomeController extends ApplicationController
 {
@@ -25,8 +26,8 @@ class HomeController extends ApplicationController
     }
 
     public function games(){
-        $games = "LIST OF GAMES";
-        return view('application.home.games', compact('games'));
+        $url = Config::get('components.xml');
+        return view('application.home.games', compact('url'));
     }
 
     public function xml($string)
