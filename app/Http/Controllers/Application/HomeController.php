@@ -21,7 +21,7 @@ class HomeController extends ApplicationController
     }
 
     public function login(){
-
+        return view('application.home.login');
     }
 
     public function games(){
