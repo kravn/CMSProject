@@ -46,6 +46,7 @@ elixir(function(mix) {
         .less('admin.less', bowerDir + 'admin.css', { paths: adminLess })
         .styles(adminCss, 'public/css/admin.css', bowerDir)
         .scripts(adminJs, 'public/js/admin.js', bowerDir)
+        .scripts(adminJs, 'public/js/admin.js', bowerDir)
         .sass('admin-buttons.scss', 'public/css/admin-buttons.css')
         .copy('resources/assets/datatables/buttons.server-side.js', 'public/js/buttons.server-side.js')
         .copy('resources/assets/js/admin.js', 'public/js/admin-custom.js')
@@ -59,5 +60,7 @@ elixir(function(mix) {
         .styles(applicationCss, 'public/css/application.css', bowerDir)
         .scripts(applicationJs, 'public/js/application.js', bowerDir)
         .copy('resources/assets/js/application.js', 'public/js/application-custom.js')
+        .copy('resources/assets/js/rendermenu.js', 'public/js/customized.js')
         .version(['css/admin.css', 'css/application.css', 'js/admin.js', 'js/application.js']);
+
 });

@@ -11,6 +11,7 @@ return [
     "home"          => "Home",
     "read_more"     => "Read More",
     "login"         => "Sign In",
-    "logout"        => "Sign Out"
+    "logout"        => "Sign Out",
+    "games"         => "Games"
 
 ];

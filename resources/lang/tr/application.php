@@ -11,6 +11,7 @@ return [
     "home"          => "Anasayfa",
     "read_more"     => "Devamını Oku",
     "login"         => "Signa Ina",
-    "logout"        => "Signa Outa"
+    "logout"        => "Signa Outa",
+    "games"         => "Gamesas"
 
 ];

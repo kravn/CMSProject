@@ -1,5 +1,5 @@
 <ul class="nav navbar-nav">
-    <li><a href="#">Games</a></li>
+    <li><a href="{{ route('games')}}">{{ trans('application.games') }}</a></li>
 </ul>
 @if(count(Session::get('current_lang')->pages))
     <ul class="nav navbar-nav">

@@ -22,6 +22,7 @@
     <![endif]-->
     <script src="{{ url( elixir('js/application.js') ) }}" type="text/javascript"></script>
     <script src="{{ url( 'js/application-custom.js' ) }}" type="text/javascript"></script>
+    <script type="text/javascript" src='js/settings.js'></script>
 </head>
 <body>
     @include('partials.application.top')

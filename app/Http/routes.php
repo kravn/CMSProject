@@ -9,6 +9,7 @@ Route::group(['middleware' => 'web'], function () {
         Route::get('category/{category_slug}', ['as' => 'category', 'uses' => 'CategoryController@index']);
         Route::post('language/change', ['as' => 'app.language.change' , 'uses' => 'LanguageController@postChange']);
         Route::get('login', ['as' => 'login', 'uses' => 'HomeController@login']);
+        Route::get('games', ['as' => 'games', 'uses' => 'HomeController@games']);
     });
     // Auth routes
     Route::group(['namespace' => 'Auth'], function () {
